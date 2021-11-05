@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #9ca2a8;
+}
+.parent {
+    display: grid;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    padding: 50px;
+    background-color: #9ca2a8;
+
+    }
+.grid1{
+    background-color: #31588d;
+    color: #d8d8cf;
+    font-size: 20px;
+    text-align: center;
+    grid-template-rows:  repeat(5, 30px);
+   
+}
+.grid2{
+    background-color: #31588d;
+    color: #d8d8cf;
+    font-size: 20px;
+    text-align: center;
+    grid-template-columns: repeat(4, 150px);
+    height: 150px;
+
+} 
+h3{
+    font-size: 12px;
+    margin-bottom: 20px;
+    margin-top: 15px; 
+}
+button{
+    margin-top: 15px; 
+    background-color: #172447;
+    color: #d8d8cf;
+    width: 100px;
+    height: 30px;
+    
+}
+.div10{
+        grid-column: 2 / 6;
+        grid-row: 2 / 6;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows:1fr 1fr 1fr 1fr ;
+        background-color: #000;
+        background-image: url(../img/yosemitehikes.com-bridalveil-winter-1200x800.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+}
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+.boxses{
+    display: grid;
+    grid-template-columns:auto auto auto  auto ;
+    grid-template-rows: auto auto ;
+    grid-gap: 15px;
+    background-color: #9ca2a8;
+    justify-content: center;
+    padding: 40px;
+}
+.box {
+    background-color: #31588d;
+    color: #d8d8cf;
+    padding: 20px;
+    font-size: 150%;
+}
+.box h2{
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.box p{
+    font-size: 15px;
+    text-align: center;
+}
+/* >>>>>>>>>>>>>>>>>>>>>>>> */
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, auto) ;
+    grid-template-rows: repeat(2, auto);
+    grid-column-gap: 15px;
+    grid-row-gap: 14px;
+    background-color: #9ca2a8;
+    justify-content: center;
+    /* height: 500px; */
+    padding: 40px;
+}
+.one{
+    background-image: url(../img/1940042.jpg);
+    width: 500px;
+    height: 300px;
+    background-size: cover;
+    margin-left: 30px;
+}
+.two{
+    background-color: #9ca2a8;
+    color: #000;
+}
+.two h4{
+    margin-top: 50px;
+    text-transform: capitalize;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.two p{
+margin-top: 20px;
+margin-left: 20px;
+}
+.two button{
+    text-decoration: none;
+    background-color: #172447;
+    color: #fff;
+    margin-top: 20px;
+    width: 100px;
+    height: 30px;
+    margin-left: 20px;
+}
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+.main {
+    display: grid;
+    grid-template-columns: repeat(5, 200px) ;
+    grid-template-rows: repeat(2, 200px);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    justify-content: center;
+    /* height: 500px; */
+    background-color: #9ca2a8;
+}
+.m1{
+    background-image: url(../img/photo-1558216811-af1e99f1c27b.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.m2{
+    background-image: url(../img/photo-1567498945768-18f9f6aa718e.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.m3{
+    background-image: url(../img/photo-1586366099962-48540f031436.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.m4{
+    background-image: url(../img/photo-1561141095-f742a2c786eb.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.m5{
+    background-image: url(../img/photo-1510662145379-13537db782dc.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.m6{
+    background-image: url(../img/photo-1504519733529-35b35d10eee2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.m7{
+    background-image: url(../img/photo-1588641689793-5e95e0bfd095.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.m8{
+    background-image: url(../img/photo-1586635746933-26e1927b3724.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.m9{
+    background-image: url(../img/photo-1580577217226-91fb29df0505.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.m10{
+    background-image: url(../img/photo-1632356573632-a099cc4a2ec5.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.mainn{
+    background-color: black;
+}
+footer{
+    margin-top: 30px;
+    background-color: rgb(73, 72, 72);
+    height: 90px;
+    text-align: center;
+    padding: 30px;
+}
